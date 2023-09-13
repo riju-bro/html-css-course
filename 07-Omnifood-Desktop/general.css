@@ -1,0 +1,124 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+
+- Line heights
+Default: 1
+header: 1.1
+hero-description: 1.5
+
+- Letter spacing
+
+--- 02 COLORS
+
+- Primary: #e67e22
+- Tints: #fdf2e9
+
+- Shades: #cf711f
+
+- Accents:
+- Greys
+#555
+#333
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+50%, 8px
+10px 
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 /150
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 1;
+}
+html {
+	/* We here respoct users font-size setting */
+	/* How? You know the answer */
+	font-size: 62.5%;
+}
+body {
+	/* background-image: url("Omnifood.png");
+	background-size: contain;
+	height: 10000px; */
+
+	font-family: "Rubik", sans-serif;
+	/* font-family: sans-serif; */
+	color: #555;
+}
+/* *************************************** */
+/* GENERAL */
+/* *************************************** */
+.mr-sm {
+	margin-right: 1.6rem !important;
+}
+.mb-lg {
+	margin-bottom: 9.6rem !important;
+}
+.mb-md {
+	margin-bottom: 4.8rem !important;
+}
+.primary-heading,
+.secondary-heading,
+.tertiary-heading {
+	color: #333;
+	letter-spacing: -1px;
+	font-weight: 700;
+}
+.primary-heading {
+	font-size: 6.2rem;
+	line-height: 1.1;
+	margin-bottom: 2.4rem;
+}
+.secondary-heading {
+	font-size: 4.8rem;
+}
+.tertiary-heading {
+	font-size: 3.2rem;
+	margin-bottom: 3.2rem;
+}
+.sm-heading {
+	color: #333;
+	font-weight: 700;
+	font-size: 2.4rem;
+	margin-bottom: 2.4rem;
+}
+.subheading {
+	text-transform: uppercase;
+	color: #cf711f;
+	font-size: 1.6rem;
+	font-weight: 600;
+	margin-bottom: 2.4rem;
+}
+
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+}
+.grid {
+	display: grid;
+	gap: 9.6rem;
+}
+.grid--col-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+.grid--col-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+.grid--col-4 {
+	grid-template-columns: repeat(4, 1fr);
+}
+strong {
+	font-weight: 500;
+}

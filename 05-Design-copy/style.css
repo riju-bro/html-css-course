@@ -1,0 +1,179 @@
+/*
+    font-color: #4b5563
+                #047857
+*/
+
+/* GENERAL STYLES */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Inter", sans-serif;
+	color: #4b5563;
+	border-bottom: solid 7px #047857;
+
+	/* background-image: url("Lisbon-Chair-Shop.png");
+	background-size: contain; /* Adjust as needed */
+	/* background-repeat: no-repeat;
+	background-attachment: fixed; /* Optional, makes the background fixed while scrolling */
+	/* overflow-y: ;
+	overflow-x: scroll; */
+}
+header,
+section {
+	margin-bottom: 128px;
+}
+.container {
+	padding-top: 64px;
+	width: 960px;
+	margin: 0 auto;
+}
+h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 48px;
+}
+.btn:link,
+.btn:visited {
+	background-color: #047857;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.grid-col-3 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 64px;
+}
+
+/* HEADER */
+header {
+	display: flex;
+	gap: 64px;
+}
+
+.hero-img {
+	width: 450px;
+}
+
+h1 {
+	font-size: 44px;
+	font-weight: 700;
+	letter-spacing: -2px;
+	line-height: 1.1;
+	margin-bottom: 48px;
+}
+.header-txt {
+	font-size: 18px;
+	/* font */
+	line-height: 1.5;
+	/* font-size: ; */
+	margin-bottom: 32px;
+}
+.btn--big:link,
+.btn--big:visited {
+	font-size: 18px;
+	padding: 16px 32px;
+}
+
+/* FEATURE SECTION */
+.feature-title {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+.feature-txt {
+	line-height: 1.5;
+	font-size: 16px /*  */;
+}
+.feature-icon {
+	stroke: #047857;
+	height: 36px;
+	width: 36px;
+	margin-bottom: 32px;
+}
+
+/* TESTIMONIAL SECTION */
+.testimonial-section {
+	display: flex;
+	gap: 48px;
+	color: #fff;
+	background-color: #047857;
+	padding: 32px;
+}
+
+.testimonial-img {
+	/* width: 200px; */
+	width: auto;
+	height: 200px;
+}
+
+.testimonial-title {
+	font-size: 24px;
+	font-weight: 700;
+}
+.testimonial-quote {
+	font-style: italic;
+	line-height: 1.4;
+}
+
+.testimonial-quote-author {
+	font-weight: 500;
+}
+
+/* CHAIR SECTION */
+
+.chair {
+	width: 270px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.chair-img {
+	width: 100%;
+	/* margin-bottom: 20px; */
+}
+.chair-txt-box {
+	padding: 24px 32px;
+}
+.chair-title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 24px;
+}
+ul {
+	list-style: none;
+	line-height: 2.4;
+	margin-bottom: 32px;
+}
+.chair-txt {
+	display: flex;
+	align-items: center;
+	/* gap:; */
+	gap: 10px;
+}
+.chair-txt span {
+	font-size: 16px;
+}
+.chair-purchase {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+.chair-price {
+	font-size: 20px;
+	font-weight: 700;
+}
+.btn--small {
+	font-size: 14px;
+	padding: 8px 10px;
+}
+.chair-icon {
+	stroke: #047857;
+	width: 24px;
+	height: 24px;
+}
+footer {
+	font-size: 10px;
+}

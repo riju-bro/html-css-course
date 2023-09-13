@@ -1,0 +1,137 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	--heading-color: #1098ad;
+	font-family: sans-serif;
+	color: #444;
+	border-top: 10px solid var(--heading-color);
+	position: relative;
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+.magazine-header {
+	background-color: #f7f7f7;
+	padding: 20px 40px;
+	margin-bottom: 60px;
+}
+.post-header {
+	margin-bottom: 40px;
+}
+
+.post-title {
+	margin-bottom: 20px;
+}
+.post-img {
+	/* It sets the width according to size of parent element */
+	width: 100%;
+	height: auto;
+}
+article {
+	margin-bottom: 60px;
+}
+.author-img {
+	float: left;
+}
+
+aside {
+	background-color: #f0f0f0;
+	border-top: 5px solid var(--heading-color);
+	border-bottom: 5px solid var(--heading-color);
+	width: 500px;
+	padding: 50px 0;
+}
+
+a,
+h1,
+h2,
+h3 {
+	text-decoration: none;
+	color: var(--heading-color);
+}
+a:hover {
+	color: orangered;
+	text-decoration: underline;
+}
+nav {
+	font-size: 18px;
+}
+nav a:link {
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+nav a:link:last-child {
+	margin-right: 0;
+}
+h1 {
+	font-size: 26px;
+	text-transform: uppercase;
+	font-style: italic;
+	/* That is nice */
+}
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+p {
+	font-size: 22px;
+	line-height: 1.4;
+	margin-bottom: 15px;
+}
+#author {
+	font-size: 18px;
+	font-style: italic;
+}
+#copyright {
+	font-size: 16px;
+}
+.related {
+	list-style: none;
+}
+.related-author {
+	font-size: 18px;
+	font-weight: bold;
+}
+ul,
+ol {
+	margin: 0 0 20px 50px;
+}
+li {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+li:first-child {
+	font-weight: bold;
+}
+li:last-child {
+	font-style: italic;
+}
+.btn {
+	position: absolute;
+	bottom: 50px;
+	right: 20px;
+	padding: 30px 50px;
+	border: none;
+	background-color: #f0f0f0;
+	border-radius: 6px;
+	font-size: 30px;
+	cursor: pointer;
+}
+h1::first-letter {
+	font-style: normal;
+	margin-right: 6px;
+}
